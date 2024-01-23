@@ -1,13 +1,9 @@
 <!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 <head>
-	<title>Ace Studios</title>
+	<title>Ace Studios - Homepage</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../static/css/main.css" />
@@ -23,7 +19,7 @@
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<h1><a href="/">Home</a></h1>
+			<!-- <h1><a href="/">Home</a></h1> -->
 			<nav>
 				<a href="#menu">Menu</a>
 			</nav>
@@ -35,8 +31,11 @@
 				<h2>Menu</h2>
 				<ul class="links">
 					<li><a href="/">Home</a></li>
-					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/elements">Elements</a></li>
+					<li><a href="/drone-gallery">drone gallery</a></li>
+					<li><a href="/photos-gallery">photos gallery</a></li>
+					<li><a href="/videos-gallery">videos gallery</a></li>
+					<!-- <li><a href="/portfolio">Portfolio</a></li>
+					<li><a href="/elements">Elements</a></li> -->
 					<li><a href="/contact">Contact</a></li>
 
 				</ul>
@@ -47,28 +46,29 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="inner">
-				<div>
+				<div class="wrapperText">
 					<div class="logoAndText">
 						<div class="logo"> <img src="../static/images/ace.png" alt="Custom Logo" width="100"
 								height="100">
 						</div>
 						<h2>Welcome to Ace Studios</h2>
 					</div>
-					<p>Photography and filmaking<a href="http://html5up.net"></a></p>
+					<p class="pp">Photography and filmaking
+						<a href="http://html5up.net"></a></p>
 				</div>
 		</section>
 
 		<!-- Wrapper -->
-		<section id="wrapper">
+		<section id="wrapper super_wrapper">
 
 			<!-- One -->
 			<section id="one" class="wrapper spotlight style1">
 				<div class="inner">
-					<a href="#" class="image"><img src="../static/images/pic01.jpg" alt="" /></a>
+					<a href="/drone-gallery" class="image"><img src="../static/images/mavic.jpg" alt="" /></a>
 					<div class="content">
-						<h2 class="major">Photography</h2>
-						<p>some photos</p>
-						<a href="#" class="special">Learn more</a>
+						<h2 class="major">Drone Footage</h2>
+						<p>some drone clips</p>
+						<a href="/drone-gallery" class="special">View Drone Gallery</a>
 					</div>
 				</div>
 			</section>
@@ -76,11 +76,11 @@
 			<!-- Two -->
 			<section id="two" class="wrapper alt spotlight style2">
 				<div class="inner">
-					<a href="#" class="image"><img src="../static/images/pic02.jpg" alt="" /></a>
+					<a href="/photos-gallery" class="image"><img src="../static/images/Mirror.jpg" alt="" /></a>
 					<div class="content">
-						<h2 class="major">Filmmaking</h2>
-						<p>some videos</p>
-						<a href="#" class="special">Learn more</a>
+						<h2 class="major">Photography</h2>
+						<p>some photos</p>
+						<a href="/photos-gallery" class="special">View Photos Gallery</a>
 					</div>
 				</div>
 			</section>
@@ -88,56 +88,58 @@
 			<!-- Three -->
 			<section id="three" class="wrapper spotlight style3">
 				<div class="inner">
-					<a href="#" class="image"><img src="../static/images/pic03.jpg" alt="" /></a>
+					<a href="/videos-gallery" class="image"><img src="../static/images/Camera.jpg" alt="" /></a>
 					<div class="content">
-						<h2 class="major">Drone Footage</h2>
-						<p>some drone clips</p>
-						<a href="#" class="special">Learn more</a>
+						<h2 class="major">Filmmaking</h2>
+						<p>some videos</p>
+						<a href="/videos-gallery" class="special">View VideoS Gallery</a>
 					</div>
 				</div>
 			</section>
-
-			<!-- Four -->
-			<section id="four" class="wrapper alt style1">
-				<div class="inner">
-					<h2 class="major">Categories</h2>
-					<p>categories description</p>
-					<section class="features">
-						<article>
-							<a href="#" class="image"><img src="../static/images/pic04.jpg" alt="" /></a>
-							<h3 class="major">Sed feugiat lorem</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-								ultrices.</p>
-							<a href="#" class="special">Learn more</a>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../static/images/pic05.jpg" alt="" /></a>
-							<h3 class="major">Nisl placerat</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-								ultrices.</p>
-							<a href="#" class="special">Learn more</a>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../static/images/pic06.jpg" alt="" /></a>
-							<h3 class="major">Ante fermentum</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-								ultrices.</p>
-							<a href="#" class="special">Learn more</a>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../static/images/pic07.jpg" alt="" /></a>
-							<h3 class="major">Fusce consequat</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-								ultrices.</p>
-							<a href="#" class="special">Learn more</a>
-						</article>
-					</section>
+			<!-- Footer -->
+			
+		<!-- <section id="footer">
+			<div class="inner">
+				<h2 class="major">Get in touch</h2>
+				<p>leave information:</p>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
 					<ul class="actions">
-						<li><a href="#" class="button">Browse All</a></li>
+						<li><input type="submit" value="Send Message" /></li>
 					</ul>
-				</div>
-			</section>
+				</form>
+				<ul class="contact">
+					<li class="icon solid fa-home">
+						Located in<br />
+						Tel-Aviv, Israel
+					</li>
+					<li class="icon solid fa-phone">(+972) 526409103</li>
+					<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+					<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
+					<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
+					<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled Inc. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section> -->
 
+	</div>
 		</section>
 		<script src="../static/js/jquery.min.js"></script>
 		<script src="../static/js/jquery.scrollex.min.js"></script>

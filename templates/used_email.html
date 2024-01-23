@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Ace Studios</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="../static/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../static/css/noscript.css" />
+    </noscript>
+    
+    <!-- CSS for the fully opaque overlay -->
+    <style>
+        /* Add this CSS to your main.css file or inline in the HTML */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(45, 45, 45); /* Fully opaque color */
+            pointer-events: none; /* Allows clicks to pass through to elements below */
+            z-index: -1; /* Places the overlay below other content */
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+    <!-- Fully opaque overlay for background color -->
+    <div class="overlay"></div>
+
+    <!-- Rest of your page content -->
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="/">Home</a></h1>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <div class="inner">
+                <h2>Menu</h2>
+                <ul class="links">
+                    <li><a href="/">Home</a></li>
+					<li><a href="/drone-gallery">drone gallery</a></li>
+					<li><a href="/photos-gallery">photos gallery</a></li>
+					<li><a href="/videos-gallery">videos gallery</a></li>
+					<!-- <li><a href="/portfolio">Portfolio</a></li>
+					<li><a href="/elements">Elements</a></li> -->
+					<li><a href="/contact">Contact</a></li>
+
+                </ul>
+                <a href="#" class="close">Close</a>
+            </div>
+        </nav>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="inner">
+                <h2 class="major">Email already exists. Please choose a different one.</h2>
+                <p>Returning you to the contact page now</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/jquery.scrollex.min.js"></script>
+    <script src="../static/js/browser.min.js"></script>
+    <script src="../static/js/breakpoints.min.js"></script>
+    <script src="../static/js/util.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script>
+
+        setTimeout(()=>{
+        window.location.pathname="/contact"
+        },4000)
+        
+    </script>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        </html>
+</body>
+
+</html>
